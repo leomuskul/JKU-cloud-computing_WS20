@@ -1,2 +1,2 @@
 <h2>Code</h2>
-In code I would store the needed files what I would use durring the work on project
+In code I will store the needed files what I will use durring the work on project
