@@ -9,4 +9,4 @@
 <li>"Server" download the code, run it and upload back to repository.</li>
 <li>Travis again see new commit and executes the next step.</li>
 <li>Client get the message from Travis and download the modified code back.</li></ul>
-<img src="https://github.com/leomuskul/JKU-cloud-computing_WS20/blob/main/code/Picture1.jpg?raw=true" alt="pipeline">
+<img src="https://github.com/leomuskul/JKU-cloud-computing_WS20/blob/main/code/Picture1.jpg?raw=true" alt="pipeline" align="center">
