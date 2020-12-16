@@ -5,9 +5,9 @@
 
 <h3>What should be done: Build a pipeline to get a MNIST model with CI</h3> 
 <li>Source code of a <a href="https://nextjournal.com/gkoehler/pytorch-mnist">task</a> to run is uploaded from a client to GitHub repository.</li>
-<li>Travis CI see a new commit and executes the step from build pipeline.</li>
-<li>"Server" download the code, run it and upload back to repository.</li>
-<li>Travis again see new commit and executes the next step.</li>
-<li>Client get the message from Travis and download the modified code back.</li></ul>
+<li>Travis CI sees a new commit and executes the step from the build pipeline.</li>
+<li>"Server" downloads the code, runs it and uploads back to repository.</li>
+<li>Travis again sees a new commit and executes the next step.</li>
+<li>Client gets the message from Travis and downloads the modified code back.</li></ul>
 <p align="middle">
 <img src="https://github.com/leomuskul/JKU-cloud-computing_WS20/blob/main/code/Picture1.jpg?raw=true" alt="pipeline"></p>
