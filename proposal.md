@@ -8,6 +8,7 @@
 	<li>Run the remote server on Linux which would provide an environment for Jupyter</li>
 	<li>Do a <a href="https://nextjournal.com/gkoehler/pytorch-mnist">tutorial task</a> on both machines (on a server and on a client)</li>
 	<li>Compare the impact of different Jupyter environment</li>
+	<li>Store the code in <a href="https://github.com/leomuskul/JKU-cloud-computing_WS20/tree/main/code">repository</a> with branches and commits (aka GitFlow)</li>
 	<li>The results would stored in <a href="https://github.com/leomuskul/JKU-cloud-computing_WS20/tree/main/results">GitHub repository</a></li>
 </ol>
 
