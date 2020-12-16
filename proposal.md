@@ -4,7 +4,7 @@
 <p>It is possible to build an own "server" wich would compute machine learning tasks.</p>
 
 <h3>What should be done: Build a pipeline to get a MNIST model with CI</h3> 
-<li>Source code of a <a href="https://nextjournal.com/gkoehler/pytorch-mnist">task</a> to run is uploaded from a client to GitHub repository.</p></li>
+<li>Source code of a <a href="https://nextjournal.com/gkoehler/pytorch-mnist">task</a> to run is uploaded from a client to GitHub repository.</li>
 <li>Travis CI see a new commit and executes the step from build pipeline.</li>
 <li>"Server" download the code, run it and upload back to repository.</li>
 <li>Travis again see new commit and executes the next step.</li>
