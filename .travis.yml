@@ -14,7 +14,7 @@ install:
   - conda update -q conda
   # Useful for debugging any issues with conda
   - conda info -a
-
+  - sudo apt install git
   - conda env create -n test-environment python=3.8.5 -f environment.yml
   - source activate test-environment
 
