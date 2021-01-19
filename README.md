@@ -6,7 +6,7 @@
 <p>It is possible to build an own server wich would compute machine learning tasks like Google Colaboratory does</p> 
 
 <h3>What should be done:</h3>
-<p style="text-align:center;"><img src="https://github.com/leomuskul/JKU-cloud-computing_WS20/blob/main/Code/Picture1.jpg" alt="Supposed scheme"></p>
+<center><img src="https://github.com/leomuskul/JKU-cloud-computing_WS20/blob/main/Code/Picture1.jpg" alt="Supposed scheme"></center>
 
 <ol>
 	<li>Run the remote server wich would provide a performance with cloud technology that we have learned in "class"</li>
