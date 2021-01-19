@@ -12,7 +12,4 @@ Task_to_do.py
 proposal.html
 .ipynb_checkpoints/Task_to_do – копія-checkpoint.ipynb
 .ipynb_checkpoints/Task_to_do-checkpoint.ipynb
-results/model.pth
-results/optimizer.pth
 Check_imorts.ipynb
-*.pth
