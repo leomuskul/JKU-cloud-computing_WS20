@@ -2,7 +2,7 @@ name: travis_anaconda_jupyter
 channels:
 - defaults
 dependencies:
-- python=3.8.5
+- python=3.8
 - pytest==6.1.1
 - conda==4.9.2
 - jupyter==1.0
