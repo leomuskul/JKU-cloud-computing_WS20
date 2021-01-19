@@ -6,5 +6,11 @@ travis_anaconda_jupyter-master/LICENSE
 travis_anaconda_jupyter-master/README.md
 travis_anaconda_jupyter-master/test_nb.py
 travis_anaconda_jupyter-master/test_nb.py
-/Task_to_do – копія.ipynb
-/Task_to_do.py
+travis_anaconda_jupyter-master/.gitignore
+Task_to_do – копія.ipynb
+Task_to_do.py
+proposal.html
+.ipynb_checkpoints/Task_to_do – копія-checkpoint.ipynb
+.ipynb_checkpoints/Task_to_do-checkpoint.ipynb
+results/model.pth
+results/optimizer.pth
