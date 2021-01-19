@@ -1,0 +1,7 @@
+
+travis_anaconda_jupyter-master/.travis.yml
+travis_anaconda_jupyter-master/environment.yml
+travis_anaconda_jupyter-master/example.ipynb
+travis_anaconda_jupyter-master/LICENSE
+travis_anaconda_jupyter-master/README.md
+travis_anaconda_jupyter-master/test_nb.py
