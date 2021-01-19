@@ -12,6 +12,6 @@
 	<li>Compare the impact of cloud technology</li>
 </ol>
 
-Big Thanks to authors of:<br>
+Big Thanks to authors:<br>
 -  <a href='https://github.com/ghego/travis_anaconda_jupyter'>travis_anaconda_jupyter</a>
-- 
+- <a href="https://nextjournal.com/gkoehler/pytorch-mnist">Gregor Koehler</a>
