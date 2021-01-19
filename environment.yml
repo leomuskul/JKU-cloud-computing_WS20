@@ -10,4 +10,3 @@ dependencies:
 - pytorch>=1.7.0
 - torchvision>=0.8
 - matplotlib==3.3.2
-- git==2.25.1
