@@ -6,6 +6,6 @@ dependencies:
 - pytest==6.1.1
 - conda==4.9.2
 - jupyter==1.0
-- torchvision==0.8.2
-- torch==1.7.1
+- pytorch>=1.7.0
+- torchvision>=0.8
 - matplotlib==3.3.2
