@@ -12,7 +12,9 @@
 	<li>Do a <a href="https://nextjournal.com/gkoehler/pytorch-mnist">tutorial task</a> on both environment (on a server with and without cloud technology and on a client computer)</li>
 	<li>Compare the impact of cloud technology</li>
 </ol>
-<div style="text-align:center"><img src="https://github.com/leomuskul/JKU-cloud-computing_WS20/blob/main/Code/Picture1.jpg" alt="Supposed scheme"></div>
+<p align="center">
+	<img src="https://github.com/leomuskul/JKU-cloud-computing_WS20/blob/main/Code/Picture1.jpg" alt="Supposed scheme">
+</p>
 
 Big Thanks to authors:<br>
 -  <a href='https://github.com/ghego/travis_anaconda_jupyter'>travis_anaconda_jupyter</a>
