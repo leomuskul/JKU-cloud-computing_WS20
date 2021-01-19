@@ -4,8 +4,12 @@
 <p>It is possible to build an own server wich would compute machine learning tasks like Google Colaboratory does</p> 
 
 <h3>What should be done:</h3>
+
 <ol>
-	<li>Run the remote server wich would provide a performance with cloud technology that we have learned in "class"</li>
+	<li>Run the remote server which would provide a performance with cloud technology that we have learned in "class"</li>
 	<li>Do a <a href="https://nextjournal.com/gkoehler/pytorch-mnist">tutorial task</a> on both environment (on a server with and without cloud technology and on a client computer)</li>
 	<li>Compare the impact of cloud technology</li>
 </ol>
+<p align="center">
+	<img src="https://github.com/leomuskul/JKU-cloud-computing_WS20/blob/main/Code/Picture1.jpg" alt="Supposed scheme">
+</p>
