@@ -1,5 +1,6 @@
 name: travis_anaconda_jupyter
 channels:
+- pytorch
 - defaults
 dependencies:
 - python=3.8
