@@ -11,4 +11,4 @@ def _exec_notebook(path):
 
 
 def test():
-    _exec_notebook('Task_to_do.ipynb')
+    _exec_notebook('.Code/Task_to_do.ipynb')
