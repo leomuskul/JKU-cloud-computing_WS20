@@ -14,3 +14,5 @@ proposal.html
 .ipynb_checkpoints/Task_to_do-checkpoint.ipynb
 results/model.pth
 results/optimizer.pth
+Check_imorts.ipynb
+*.pth
