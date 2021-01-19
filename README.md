@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/leomuskul/JKU-cloud-computing_WS20.svg?branch=main)](https://travis-ci.com/leomuskul/JKU-cloud-computing_WS20)[![PyPI](https://img.shields.io/pypi/v/leomuskul/JKU-cloud-computing_WS20?color=blue&label=pypi%20version)](https://pypi.org/project/leomuskul/JKU-cloud-computing_WS20/#description) [![Conda (channel only)](https://img.shields.io/conda/vn/leomuskul/JKU-cloud-computing_WS20?color=seagreen&label=conda%20version)](https://anaconda.org/fastai/fastai)
+[![Build Status](https://travis-ci.com/leomuskul/JKU-cloud-computing_WS20.svg?branch=main)](https://travis-ci.com/leomuskul/JKU-cloud-computing_WS20)
 
 <h2>What the project about</h2>
 <p>The Jupyter Notebook has become a popular user interface for cloud computing, and major cloud providers have adopted the Jupyter Notebook or derivative tools as a frontend interface for cloud users. Examples include Amazon's SageMaker Notebooks, Google's Colaboratory and Microsoft's Azure Notebook.</p>
