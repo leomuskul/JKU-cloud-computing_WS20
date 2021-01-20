@@ -17,22 +17,28 @@ install:
   - sudo apt install git
   - source activate test-environment
 
+script:
+  - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
+
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: 86fac0bd12b3281afba7934ff0bf8988bb3f4a2b   # Set in the settings page of your repository, as a secure variable
   keep_history: true
+  repo: https://github.com/leomuskul/JKU-cloud-computing_WS20.git
+  local_dir: leomuskul/JKU-cloud-computing_WS20
+  email: mykolazelenku@gmail.com
+  name: "Mykola Zelenku"
+  deployment_file: ./Code/Task_to_do.html
   on:
     branch: main
 
-script:
-  - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
-  # - echo "# JKU-cloud-computing_WS20" >> read.md
-  # - git init
-  - git add ./Code/Task_to_do.html
-  - git commit -m "first commit"
-  # - git remote add origin git@github.com:leomuskul/test-repo.git
-  - git push
+  # # - echo "# JKU-cloud-computing_WS20" >> read.md
+  # - git clone --depth=50 --branch=main https://github.com/leomuskul/JKU-cloud-computing_WS20.git leomuskul/JKU-cloud-computing_WS20
+  # - git add ./Code/Task_to_do.html
+  # - git commit -m "first commit"
+  # # - git remote add origin git@github.com:leomuskul/test-repo.git
+  # - git push
 notifications:
   email:
     recipients:
