@@ -13,15 +13,15 @@ install:
   - conda update -q conda
   # Useful for debugging any issues with conda
   - conda info -a
-  - conda env create -n test-environment python=3.8.5 -f environment.yml
+  # - conda env create -n test-environment python=3.8.5 -f environment.yml
   - sudo apt install git
   - source activate test-environment
 
 script:
-  - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
-  - echo "# test-repo" >> README.md
+  # - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
+  - echo "# test-repo" >> ./Code/Task_to_do.ipynb
   - git init
-  - git add ./Code/Task_to_do.html
+  - git add ./Code/Task_to_do.ipynb
   - git commit -m "first commit"
   - git remote add origin git@github.com:leomuskul/JKU-cloud-computing_WS20.git
   - git push -u origin master
