@@ -17,10 +17,11 @@ install:
   - conda env create -n test-environment python=3.8.5 -f environment.yml
   - sudo apt install git
   - source activate test-environment
+  - jupyter nbconvert --to notebook --execute ./Code/Task_to_do.ipynb --output=./Code/task_done.ipynb
 
 
 install:
-  - jupyter nbconvert --to notebook --execute ./Code/Task_to_do.ipynb --output=./Code/task_done.ipynb
+
   # - jupyter nbconvert --execute --to notebook --inplace --allow-errors --ExecutePreprocessor.timeout=-1 ./Code/Task_to_do.ipynb --output ./Code/task_done.ipynb
 script:
   # - pytest
