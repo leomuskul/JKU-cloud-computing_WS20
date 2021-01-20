@@ -31,7 +31,7 @@ deploy:
   name: "Mykola Zelenku"
   deployment_file: ./Code/Task_to_do.html
   on:
-    branches:
+    branch:
       - main
 
   # # - echo "# JKU-cloud-computing_WS20" >> read.md
