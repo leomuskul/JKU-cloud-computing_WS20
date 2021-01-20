@@ -2,11 +2,7 @@ language: python
 python:
   - "3.8"
 install:
-  - sudo apt install ruby-full libffi-dev make gcc
-  - sudo gem install travis
-  - travis setup releases --pro
   - sudo apt-get update
-
   # We do this conditionally because it saves us some downloading if the
   # version is the same.
   - wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
@@ -27,15 +23,16 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: a0cd0a8ed55a34280b85e22ee880647d523e290b   # Set in the settings page of your repository, as a secure variable
   keep_history: true
+  github_token: a0cd0a8ed55a34280b85e22ee880647d523e290b   # Set in the settings page of your repository, as a secure variable
   repo: https://github.com/leomuskul/JKU-cloud-computing_WS20.git
   local_dir: leomuskul/JKU-cloud-computing_WS20
   email: mykolazelenku@gmail.com
   name: "Mykola Zelenku"
   deployment_file: ./Code/Task_to_do.html
   on:
-    branch: main
+    branches:
+      - master
 
   # # - echo "# JKU-cloud-computing_WS20" >> read.md
   # - git clone --depth=50 --branch=main https://github.com/leomuskul/JKU-cloud-computing_WS20.git leomuskul/JKU-cloud-computing_WS20
