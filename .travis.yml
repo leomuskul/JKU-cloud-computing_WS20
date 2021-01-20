@@ -17,6 +17,14 @@ install:
   - sudo apt install git
   - source activate test-environment
 
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 86fac0bd12b3281afba7934ff0bf8988bb3f4a2b   # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: main
+
 script:
   - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
   # - echo "# JKU-cloud-computing_WS20" >> read.md
