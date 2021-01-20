@@ -2,7 +2,7 @@ language: python
 python:
   - "3.8"
 install:
-  - sudo apt install ruby ruby-dev
+  - sudo apt install ruby-dev libffi-dev make gcc
   - sudo gem install travis
   - travis setup releases --pro
   - sudo apt-get update
