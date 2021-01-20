@@ -21,10 +21,9 @@ script:
   - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
 
 deploy:
-  - provider: pages
+  provider: pages
   skip_cleanup: true
   keep_history: true
-  
   github_token: cf21243bc0614af83e1729516f01ba7676916877
   repo: https://github.com/leomuskul/JKU-cloud-computing_WS20.git
   local_dir: leomuskul/JKU-cloud-computing_WS20
