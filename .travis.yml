@@ -23,7 +23,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: 86fac0bd12b3281afba7934ff0bf8988bb3f4a2b   # Set in the settings page of your repository, as a secure variable
+  github_token: a0cd0a8ed55a34280b85e22ee880647d523e290b   # Set in the settings page of your repository, as a secure variable
   keep_history: true
   repo: https://github.com/leomuskul/JKU-cloud-computing_WS20.git
   local_dir: leomuskul/JKU-cloud-computing_WS20
