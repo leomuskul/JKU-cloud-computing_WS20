@@ -1,30 +1,30 @@
-# language: python
-# python:
-#   - "3.8"
+language: python
+python:
+  - "3.8"
 install:
   - sudo apt-get update
   # We do this conditionally because it saves us some downloading if the
   # version is the same.
-  # - wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
-  # - bash Anaconda3-2020.11-Linux-x86_64.sh -b -p $HOME/Anaconda
-  # - export PATH="$HOME/Anaconda/bin:$PATH"
-  # - hash -r
-  # - conda config --set always_yes yes --set changeps1 no
-  # - conda update -q conda
+  - wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+  - bash Anaconda3-2020.11-Linux-x86_64.sh -b -p $HOME/Anaconda
+  - export PATH="$HOME/Anaconda/bin:$PATH"
+  - hash -r
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update -q conda
   # Useful for debugging any issues with conda
-  # - conda info -a
-  # - conda env create -n test-environment python=3.8.5 -f environment.yml
+  - conda info -a
+  - conda env create -n test-environment python=3.8.5 -f environment.yml
   - sudo apt install git
-  # - source activate test-environment
+  - source activate test-environment
 
 script:
-  # - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
-  - echo "# JKU-cloud-computing_WS20" >> read.md
-  - git init
-  - git add ./Code/Task_to_do.ipynb
+  - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
+  # - echo "# JKU-cloud-computing_WS20" >> read.md
+  # - git init
+  - git add ./Code/Task_to_do.html
   - git commit -m "first commit"
   # - git remote add origin git@github.com:leomuskul/test-repo.git
-  - git push -u origin master
+  - git push
  
 notifications:
   email:
