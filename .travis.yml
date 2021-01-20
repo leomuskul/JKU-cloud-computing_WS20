@@ -19,13 +19,13 @@ install:
 
 script:
   # - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
-  # - echo "# test-repo" >> read.md
+  - echo "# test-repo" >> read.md
   - git init
   - git add ./Code/Task_to_do.ipynb
   - git commit -m "first commit"
-  # - git remote add origin git@github.com:leomuskul/JKU-cloud-computing_WS20.git
-  - git push
-
+  - git remote add origin git@github.com:leomuskul/test-repo.git
+  - git push -u origin master
+ 
 notifications:
   email:
     recipients:
