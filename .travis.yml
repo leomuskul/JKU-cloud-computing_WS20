@@ -6,6 +6,7 @@ install:
   - sudo gem install travis
   - travis setup releases --pro
   - sudo apt-get update
+  
   # We do this conditionally because it saves us some downloading if the
   # version is the same.
   - wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
