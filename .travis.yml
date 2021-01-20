@@ -1,6 +1,6 @@
-language: python
-python:
-  - "3.8"
+# language: python
+# python:
+#   - "3.8"
 install:
   - sudo apt-get update
   # We do this conditionally because it saves us some downloading if the
@@ -19,12 +19,12 @@ install:
 
 script:
   # - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
-  - echo "# test-repo" >> ./Code/Task_to_do.ipynb
+  # - echo "# test-repo" >> read.md
   - git init
   - git add ./Code/Task_to_do.ipynb
   - git commit -m "first commit"
   - git remote add origin git@github.com:leomuskul/JKU-cloud-computing_WS20.git
-  - git push -u origin master
+  - git push
 
 notifications:
   email:
