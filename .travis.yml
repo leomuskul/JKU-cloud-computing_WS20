@@ -5,17 +5,17 @@ install:
   - sudo apt-get update
   # We do this conditionally because it saves us some downloading if the
   # version is the same.
-  - wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
-  - bash Anaconda3-2020.11-Linux-x86_64.sh -b -p $HOME/Anaconda
-  - export PATH="$HOME/Anaconda/bin:$PATH"
-  - hash -r
-  - conda config --set always_yes yes --set changeps1 no
-  - conda update -q conda
+  # - wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+  # - bash Anaconda3-2020.11-Linux-x86_64.sh -b -p $HOME/Anaconda
+  # - export PATH="$HOME/Anaconda/bin:$PATH"
+  # - hash -r
+  # - conda config --set always_yes yes --set changeps1 no
+  # - conda update -q conda
   # Useful for debugging any issues with conda
-  - conda info -a
+  # - conda info -a
   # - conda env create -n test-environment python=3.8.5 -f environment.yml
   - sudo apt install git
-  - source activate test-environment
+  # - source activate test-environment
 
 script:
   # - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
