@@ -65,12 +65,12 @@ class to_Git(object):
 # Example to use        
 # from Git_function import *
 
-# file_name = 'Assignment_2_Mykola_Zelenku_11734881.ipynb'
-# message= 'v5.2_conf_matrix_final'
-# repo='https://github.com/leomuskul/MLST-Assignments-Ass2.git'
+file_name = './Code/task_done.ipynb'
+message= 'finished task'
+repo='https://github.com/leomuskul/JKU-cloud-computing_WS20.git'
 
-# git_ = to_Git(repo=repo)
+git_ = to_Git(repo=repo)
 
-# git_.add_file(file_name)
-# git_.add_commit(message)
-# git_.push()
+git_.add_file(file_name)
+git_.add_commit(message)
+git_.push()

@@ -18,8 +18,12 @@ install:
   - sudo apt install git
   - source activate test-environment
 
+
+install:
+  - jupyter nbconvert --to notebook --execute ./Code/Task_to_do.ipynb --output=./Code/task_done.ipynb
+  # - jupyter nbconvert --execute --to notebook --inplace --allow-errors --ExecutePreprocessor.timeout=-1 ./Code/Task_to_do.ipynb --output ./Code/task_done.ipynb
 script:
-  - pytest
+  # - pytest
   - python3 Git_function.py
 
 notifications:
