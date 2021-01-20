@@ -21,8 +21,8 @@ install:
   - source activate test-environment
 
 script:
-  - pytest
-#   - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
+  # - pytest
+  - jupyter nbconvert --to=html --execute ./Code/Task_to_do.ipynb
 
 
   # # - echo "# JKU-cloud-computing_WS20" >> read.md
